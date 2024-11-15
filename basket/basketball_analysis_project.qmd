@@ -2,11 +2,12 @@
 title: "Basketball Performance Analysis Project"
 author: "Master's Level Data Science Exercise"
 format: 
+  pdf: default
   html:
     toc: true
     code-fold: true
     theme: cosmo
-bibliography: ../references.bib
+    embed-resources: true
 ---
 
 ## Project Overview
@@ -97,7 +98,7 @@ A comprehensive synthetic dataset (`basketball_performance_dataset.csv`) is prov
    - Interpret coefficients and statistical significance
 
 2. Regularized Regression
-   - Apply Ridge/Lasso regression
+   - Apply Ridge or Lasso regression
    - Compare model performance metrics
    - Discuss feature importance
 

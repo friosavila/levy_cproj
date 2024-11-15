@@ -2,11 +2,12 @@
 title: "Student Performance Analysis Project"
 author: "Master's Level Data Science Exercise"
 format: 
+  pdf: default
   html:
     toc: true
     code-fold: true
     theme: cosmo
-bibliography: references.bib
+    embed-resources: true
 ---
 
 ## Project Overview
@@ -77,11 +78,10 @@ A comprehensive synthetic dataset (`student_performance_dataset.csv`) is provide
    Requirements:
    - Implement multiple linear regression
    - Check and address multicollinearity
-   - Validate model assumptions
    - Interpret coefficients and statistical significance
 
 2. Regularized Regression
-   - Apply Ridge/Lasso regression
+   - Apply Ridge orLasso regression
    - Compare model performance metrics
    - Discuss feature importance
 
